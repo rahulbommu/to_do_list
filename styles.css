@@ -20,6 +20,7 @@ body {
   background-color: var(--background);
   color: var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
 }
 
 .container {
