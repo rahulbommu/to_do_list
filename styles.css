@@ -123,6 +123,7 @@ input {
   outline: none;
   color: var(--text);
   transition: all 0.3s ease;
+  /* font-size: large; */
 }
 
 input:focus {
@@ -161,6 +162,7 @@ button:hover {
   width: 100%;
   margin-top: 30px;
   list-style: none;
+
 }
 
 .taskItem {
@@ -191,6 +193,7 @@ button:hover {
   height: 20px;
   accent-color: var(--mint);
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .task.completed {
@@ -237,4 +240,16 @@ button:hover {
 @keyframes fadeIn {
   0% { opacity: 0.3; }
   100% { opacity: 1; }
+}
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #c4c4c4;
+  border-top: 1px solid #222;
+  margin-top: 4rem;
+}
+footer a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #00f0ff;
 }
